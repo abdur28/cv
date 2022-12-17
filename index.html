@@ -1,71 +1,234 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
 
 <head>
   <meta charset="utf-8">
-  <title>Abdurrahman's Personal Site</title>
+  <title>My CV page</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <table cellspacing="20">
-    <tr>
-      <td>  <img src="kanye.png" alt="My Profile Picture"></td>
-      <td><h1>Abdurrahman Idris</h1>
-      <p><em>Student and an <strong>Entrepreneur</strong></em></p>
-      <p>I am a programmer and a web developer. I love to play football.</p></td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Education</h3>
-  <ul>
-    <li>AL-Amana Academy <em>2004-2013</em></li>
-    <li><a href="https://www.zamanicollege.com/">Zamani College Kaduna</a><em>2013-2019</em></li>
-    <li><a href="https://www.mirea.ru/">MIREA Russian Technological University</a><em>2020-present</em></li>
-  </ul>
-  <hr>
-  <h3>Work Experience</h3>
-  <table cellspacing="10">
-    <thead>
-      <tr>
-        <th>Dates</th><th>Work</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2001-2021</td><td>Nothing</td>
-      </tr>
-      <tr>
-        <td>2021-present</td><td>Self-employed</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr>
-  <h3>Skills</h3>
-  <table cellspacing="10">
-    <thead>
-      <tr>
-        <td>Skill</td><td>Rating</td>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Web development</td><td>⭐⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>cooking</td><td>⭐⭐⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>football</td><td>⭐⭐⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>Gaming</td><td>⭐⭐⭐⭐</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr>
-  <a href="Hobbies.html">My Hobbies</a>
-  <br>
-  <a href="Contacts.html">Contacts</a>
+
+  <section class="colored-section" id="title">
+
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href="">HOME</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Skills</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+
+
+      <!-- Title -->
+
+      <div class="row">
+
+        <div class="col-lg-6">
+          <h1 class="big-heading">I'm Abdurrahman Idris. A Developer.</h1>
+          <a href="mailto:Abdurrahmanidris28@gmail.com"><button type="button" class="btn btn-dark btn-lg download-button"><i class="social-icon fas fa-envelope"></i> Mail Me</button></a>
+          <a href="https://wa.me/+79014273968"><button type="button" class="btn btn-outline-light btn-lg download-button"><i class="social-icon fab fa-whatsapp"></i> Message Me</button></a>
+        </div>
+
+        <div class="col-lg-6">
+          <img class="title-image" src="images/phone.png" alt="iphone-mockup">
+        </div>
+
+      </div>
+      <div class="bubbles">
+        <img src="images/bubble.png"/>
+        <img src="images/bubble.png"/>
+        <img src="images/bubble.png"/>
+        <img src="images/bubble.png"/>
+        <img src="images/bubble.png"/>
+        <img src="images/bubble.png"/>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h3 class="feature-title">Reliable.</h3>
+          <p>You can trust me to complete work on time.</p>
+        </div>
+
+
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-bullseye fa-4x"></i>
+          <h3 class="feature-title">Team player</h3>
+          <p>
+            There is not I in team.
+          </p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-heart fa-4x"></i>
+          <h3 class="feature-title">Effectiveness.</h3>
+          <p>I create desired websites with high efficiency.</p>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section class="colored-section" id="testimonials">
+    <div>
+      <hi class="big-heading">
+        MY SKILLS
+      </hi>
+    </div>
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">I have a very wide knownledge of HTML, CSS and JavaScript.</h2>
+          <img class="testimonial-image" src="images/html-css.png" alt="dog-profile">
+          <em>HTML, CSS, JavaScript</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">I am very good with Express and Node.js. I use them efficiently.</h2>
+          <img class="testimonial-image" src="images/nodee.png" alt="dog-profile">
+          <em>Node, Express</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">I also use REACT to creat beautiful and effective websites.</h2>
+          <img class="testimonial-image" src="images/react.png" alt="dog-profile">
+          <em>REACT</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">I can build my own RESTful API's. I have a good knownledge of API's and Json format.</h2>
+          <img class="testimonial-image" src="images/rest.png" alt="dog-profile">
+          <em>REST API</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">I can comfortably use Linux/Unix command line.</h2>
+          <img class="testimonial-image" src="images/unix.png" alt="dog-profile">
+          <em>Linux/Unix</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">I have a very good knownledge of Git and GitHub.</h2>
+          <img class="testimonial-image" src="images/git.png" alt="dog-profile">
+          <em>Git, GitHub</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">I can CRUD(create, read, update and delete) a Database with good knownledge of MongoDB.</h2>
+          <img class="testimonial-image" src="images/mongodb.png" alt="dog-profile">
+          <em>MongoDB</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">I have a very good knownledge on website security and authentication.</h2>
+          <img class="testimonial-image" src="images/security.png" alt="dog-profile">
+          <em>Security and authentication</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">I also have a good knownledge on Flask using Python programming language</h2>
+          <img class="testimonial-image" src="images/flask.png" alt="lady-profile">
+          <em>Python, Flask</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
+
+
+  <!-- Press -->
+
+
+
+
+  <!-- Pricing -->
+
+  <section class="white-section" id="pricing">
+
+    <h2 class="section-heading">About Me </h2>
+    <p>All you need to know about me is that i am a simple hard-working person.</p><p>My hobbies include coding, video gaming, football and board games.</p>
+    <p>
+      You can also check-out my social media pages
+    </p>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section class="colored-section" id="cta">
+
+    <div class="container-fluid">
+
+      <h3 class="big-heading">This is just a small piece of what i can do!</h3>
+      <a href="mailto:Abdurrahmanidris28@gmail.com"><button class="download-button btn btn-lg btn-dark" type="button"><i class="social-icon fas fa-envelope"></i> Mail Me</button></a>
+      <a href="https://wa.me/+79014273968"><button class="download-button btn btn-lg brn-light" type="button"><i class="social-icon fab fa-whatsapp"></i> Message Me</button></a>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <a href="https://twitter.com/abdur_idris_"><i class="social-icon fab fa-twitter"></i></a>
+      <a href="https://instagram.com/abdur_idris_?igshid=Zjc2ZTc4Nzk="><i class="social-icon fab fa-instagram"></i></a>
+      <a href="mailto:Abdurrahmanidris28@gmail.com"><i class="social-icon fas fa-envelope"></i></a>
+      <p>© Copyright 2022 Abdurrahman Idris</p>
+    </div>
+  </footer>
+
 
 </body>
 
