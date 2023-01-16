@@ -233,6 +233,9 @@ s
   #title {
     text-align: center;
   }
+  .nav-item{
+    background-color: #70B5DF;
+  }
 
   .title-image {
     position: static;
